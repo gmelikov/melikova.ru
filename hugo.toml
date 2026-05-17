@@ -17,6 +17,11 @@ ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 
+[params.assets]
+favicon = 'favicon.jpg'
+favicon32x32 = 'favicon.jpg'
+favicon16x16 = 'favicon.jpg'
+
 [params.homeInfoParams]
 Title = '<+_+>'
 Content = 'Привет, меня зовут Крис. Иногда (а пока очень и очень редко) я тут пишу о поездках, книгах, фильмах, еде и работе.'
