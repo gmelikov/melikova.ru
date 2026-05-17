@@ -1,0 +1,55 @@
+baseURL = 'https://melikova.ru/'
+locale = 'ru-ru'
+title = '<+_+>'
+theme = 'PaperMod'
+
+
+[pagination]
+pagerSize = 10
+
+[params]
+defaultTheme = 'auto'
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+
+[params.homeInfoParams]
+Title = '<+_+>'
+Content = 'Привет, меня зовут Крис. Иногда (а пока очень и очень редко) я тут пишу о поездках, книгах, фильмах, еде и работе.'
+
+[[params.socialIcons]]
+name = 'github'
+title = 'GitHub'
+url = 'https://github.com/gmelikov'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = 'dracula'
+lineNos = false
+noClasses = false
+
+[outputs]
+home = ['HTML', 'RSS']
+
+[menu]
+[[menu.main]]
+identifier = 'posts'
+name = 'Записи'
+url = '/posts/'
+weight = 10
+[[menu.main]]
+identifier = 'categories'
+name = 'Категории'
+url = '/categories/'
+weight = 20
+[[menu.main]]
+identifier = 'tags'
+name = 'Теги'
+url = '/tags/'
+weight = 30
