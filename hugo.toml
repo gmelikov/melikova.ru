@@ -53,3 +53,7 @@ identifier = 'tags'
 name = 'Теги'
 url = '/tags/'
 weight = 30
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
